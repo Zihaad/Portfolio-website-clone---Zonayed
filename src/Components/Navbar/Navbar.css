@@ -1,0 +1,41 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul li{
+    list-style: none;
+    padding: 1rem;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size:16px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    transition: .2s ease-in;
+}
+.navbar ul li a:hover{
+    color:#00CF5D
+}
+
+.resume{
+    border: 2px solid #00CF5D;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+
+.resume:hover{
+   background: #fff;
+}

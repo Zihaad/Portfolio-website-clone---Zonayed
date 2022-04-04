@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400&family=Spartan:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    color: #fff;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    font-family: 'Lato', sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+    background: #111a28;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.section__padding{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 5rem;
+    padding: 6rem;
 }
-
-.App-link {
-  color: #61dafb;
+.btn{
+    color: #fff;
+    padding: 1.3rem 2rem;
+    border: none;
+    margin: 1rem 0;
+    border: 2px solid #00CF5D;
+    text-transform: uppercase;
+    transition: .3s;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button.green{
+    background-color: #00CF5D;
+    margin-right: 1rem;
+}
+button.green:hover{
+    background: transparent;
+}
+button.outline:hover{
+    background: #00CF5D;
+}
+button.outline{
+    background-color: #111a28;
 }

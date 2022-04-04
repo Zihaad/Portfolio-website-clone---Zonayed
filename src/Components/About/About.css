@@ -1,0 +1,30 @@
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 4rem;
+    margin: 2rem;
+}
+.about_text{
+    color: #fff;
+    line-height:2.5rem;
+    max-width: 50%;
+    letter-spacing: 1.2px;
+}
+.about_img{
+    width: 50%;
+   
+}
+
+.about_img img{
+    width: 420px;
+    border-radius: 10px;
+    margin-left: 5rem;
+    filter: grayscale(1);
+    transform: scale(.95);
+    transition: all 1s;
+}
+.about_img img:hover{
+    filter: grayscale(0);
+    transform: scale(1);
+}
